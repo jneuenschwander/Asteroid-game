@@ -20,24 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="717321e1-477c-40c5-ab8b-499347b4d7c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid-game/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid-game/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid-game/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid-game/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid-game/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid-game/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletMovement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/OnColisionBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UniverseBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UniverseBehaviour.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanShoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShipMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShipMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Asteroid-game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Asteroid-game/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +32,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnColisionBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -56,8 +40,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CanShoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UniverseBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnColisionBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UniverseBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -111,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603678339268</updated>
-      <workItem from="1603678352392" duration="2103000" />
+      <workItem from="1603678352392" duration="2963000" />
     </task>
     <servers />
   </component>
