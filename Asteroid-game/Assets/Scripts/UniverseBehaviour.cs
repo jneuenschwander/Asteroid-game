@@ -20,7 +20,6 @@ public class UniverseBehaviour : MonoBehaviour
         if (x > borders.rightBorder) {
             pos.x = borders.leftBorder;
             transform.position = pos;
-            
         }
         if (x < borders.leftBorder) {
             pos.x = borders.rightBorder;

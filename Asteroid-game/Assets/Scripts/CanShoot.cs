@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CanShoot : MonoBehaviour
+public class CanShoot : MonoBehaviour, IShoot
+
 {
     public GameObject bulletPrefab;
     public Transform bulletSpawner;
@@ -16,7 +17,7 @@ public class CanShoot : MonoBehaviour
     
     
 
-    private void Shoot () {
+    public void Shoot () {
         if (shooting && canShoot) { // si esta disparando y puede disparar
             StartCoroutine (FireRate ()); // se llama a una corutina que se encargara de hacer un disparo
         }
@@ -25,7 +26,7 @@ public class CanShoot : MonoBehaviour
 
 
 
-    private IEnumerator FireRate () {
+    public IEnumerator FireRate () {
         canShoot = false; //se inicializa en falso
         var bullet = Instantiate ( 
             bulletPrefab,

@@ -6,7 +6,13 @@ public class OnColisionBehaviour : MonoBehaviour
 {
     public GameObject[] subAsteroids;
     public int numberOfAsteroids;
-    private void OnTriggerEnter2D (Collider2D col) {
+    private void OnTriggerEnter2D (Collider2D col)
+    {
+        ColisionController(col);
+    }
+
+    public void ColisionController(Collider2D col )
+    {
         if (col.CompareTag ("Bullet")) {
             Destroy (gameObject);
             Destroy (col.gameObject);

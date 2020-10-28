@@ -11,6 +11,10 @@
           <e p="BulletMovement.cs" t="Include" />
           <e p="CanShoot.cs" t="Include" />
           <e p="InputManager.cs" t="Include" />
+          <e p="Interfaces" t="Include">
+            <e p="IGameLogic.cs" t="Include" />
+            <e p="IShoot.cs" t="Include" />
+          </e>
           <e p="OnColisionBehaviour.cs" t="Include" />
           <e p="ShipMovement.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
